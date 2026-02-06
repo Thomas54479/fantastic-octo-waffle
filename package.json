@@ -1,1 +1,31 @@
-{}
+{
+  "name": "ecommerce-platform",
+  "version": "1.0.0",
+  "description": "Full-featured ecommerce platform with Supabase integration",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "migrate": "node scripts/migrate.js"
+  },
+  "keywords": ["ecommerce", "supabase", "nodejs"],
+  "author": "Thomas54479",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "@supabase/supabase-js": "^2.38.4",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "joi": "^17.9.2",
+    "stripe": "^12.0.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "jest": "^29.5.0"
+  }
+}
