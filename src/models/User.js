@@ -1,0 +1,1 @@
+// src/models/User.js - User model defining the schema for users table with fields like id, email, password_hash, first_name, last_name, phone, address, city, state, zip_code, country, is_admin, created_at, updated_at
